@@ -27,19 +27,21 @@
                android:id="@+id/txtProductName"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="Tên sản phẩm"
+               android:text="Máy pha cà phê tự động Aroma Pro 9000Z"
                android:textSize="24sp"
                android:textStyle="bold"
                android:layout_marginTop="12dp"
+               android:layout_marginEnd="12dp"
                android:layout_marginStart="12dp"/>
 
            <TextView
                android:id="@+id/txtProductDescription"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="Mô tả sản phẩm"
+               android:text="Trong thế giới hiện đại, nơi thời gian là tài sản quý giá, việc thưởng thức một ly cà phê ngon không chỉ là thói quen mà còn là nghệ thuật. AromaMaster Pro 9000 ra đời để phục vụ những tín đồ cà phê khó tính nhất, mang đến trải nghiệm pha chế chuyên nghiệp ngay tại nhà hoặc văn phòng. Với thiết kế tối giản nhưng tinh tế, tích hợp công nghệ chiết xuất áp suất cao và hệ thống tùy chỉnh hương vị, sản phẩm này không chỉ là một thiết bị mà còn là người bạn đồng hành trong hành trình khám phá cà phê."
                android:textSize="16sp"
                android:layout_marginTop="24dp"
+               android:layout_marginEnd="12dp"
                android:layout_marginStart="12dp"/>
 
            <LinearLayout
@@ -73,6 +75,10 @@
                    android:background="@drawable/rectangle_bg"
                    app:tint="@color/white" />
            </LinearLayout>
+
+           <Space
+               android:layout_width="match_parent"
+               android:layout_height="200dp"/>
        </LinearLayout>
 
     </ScrollView>
@@ -91,6 +97,7 @@
         android:id="@+id/constraint"
         android:layout_gravity="bottom"
         android:paddingBottom="32dp"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
